@@ -32,7 +32,7 @@ function countDown() {
       }
   
       if (seconds <= 0) {
-        seconds = 2;
+        seconds = 60;
         --minutes;
       }
       updateDisplay(minutes, String(seconds - 1));

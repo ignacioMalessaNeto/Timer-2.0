@@ -16,7 +16,7 @@ body{
 
     font-family: 'Roboto', sans-serif;
 
-    min-width: 100vh;
+    min-width: 100vh; 
 }
 
 main{
@@ -82,8 +82,8 @@ button{
         display: flex;
         justify-content: center;
         width: clamp(10rem, 82.1rem + 5vw, 82.1rem);
-        margin-top: 15rem;
-        margin-left: 10rem;
+        margin-top: 10rem;
+        margin-left: 11rem;
         gap: 8rem;    
     }
 }
@@ -113,6 +113,12 @@ button{
 }
 
 @media (max-width: 375px){
+    #timer{
+        margin-top: 14rem;
+      }
+}
+
+@media (max-width: 325px){
     #timer{
         margin-top: 15rem;
       }
